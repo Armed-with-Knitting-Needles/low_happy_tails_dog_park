@@ -1,0 +1,91 @@
+/* Colors:
+#D5EDF2
+#3F853C
+#E1EAC0
+#A3C443
+#9E59C0 */
+
+body{
+  font-family: 'Mukta', sans-serif;
+}
+
+/* General */
+.section-title{
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.main-section{
+  padding: 5% 10%;
+}
+/* Title and navbar */
+.navbar-brand{
+  padding-right: 1rem;
+  width: min-content;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #A3C443 !important;
+}
+
+.btn-primary:hover{
+  background-color: #3F853C !important;
+}
+
+.logo-image{
+ width: 15%;
+ vertical-align: text-top;
+}
+
+.barnd-title{
+  font-family: 'Lemonada', cursive;
+}
+
+/* Hero */
+.hero-image{
+  background-image: url("LOW_test_image_arisay_arana_herl.png");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-text{
+  color: #fff;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  font-family: 'Lemonada', cursive;
+}
+
+.hero-text .title-text{
+  font-weight: bold;
+}
+/* About */
+.about{
+ text-align: center;
+}
+.about-text{
+  text-align: left;
+}
+
+.about-image{
+  width: 80%;
+}
+
+/* Rules */
+.rules-vector-art-right{
+  width: 45%;
+  float: right;
+  padding: 8% 7%;
+  position: relative;
+}
+
+.rules-vector-art-left{
+  width: 45%;
+  float: left;
+  padding: 8% 7%;
+  position: relative;
+}
